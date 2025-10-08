@@ -19,7 +19,11 @@
     margin-right: 20px;
 }
 
-.profile__plus_icon {
+.profile__icon {
+    
+}
+
+.profile__icon_plus {
     color: #FCF5E5;
     
 }
