@@ -32,13 +32,19 @@
 
 .card__like-btn {
     background-image: url(../images/Heart.svg);
+    background-color: transparent;
     width: 23px;
     height: 20px;
-    opacity: 40%;
     justify-content: space-evenly;
     border: none;
     cursor: pointer;
 }
+
+.card__like-btn:hover {
+    opacity: 40%;
+}
+
+
 
 @media screen and (max-width: 627px) {
     .card__image {
