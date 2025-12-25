@@ -143,6 +143,63 @@
       <footer class="footer">
         <h2 class="footer__copyright">2023 &copy Spots</h2>
       </footer>
+    
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn"><img src="/images/close-icon.png" alt="Close icon btn"> </button>
+          <h2 class="modal__title">Edit profile</h2>
+
+          <form  class="modal__form">
+            <label for="profile-name__input" class="modal__label">
+              Name
+              <input 
+                id="profile-name__input" 
+                type="text" 
+                class="modal__input" 
+                placeholder="Type your name"/>
+
+              <label for="profile-description__input" class="modal__label"> 
+               Description
+              <input 
+                id="profile-description__input" 
+                type="text" 
+                class="modal__input" 
+                placeholder="Describe yourself"/>
+            </label> 
+
+            <button type="submit" class="modal__save-btn">Save</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal modal_is-opened">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn"><img src="/images/close-icon.png" alt="Close icon btn"> </button>
+          <h2 class="modal__title">New Post</h2>
+
+          <form  class="modal__form">
+            <label for="card-image__input" class="modal__label">
+              Image link
+              <input 
+                id="card-image__input" 
+                type="url" 
+                class="modal__input" 
+                placeholder="Paste a link to the picture"/>
+
+              <label for="card-caption__input" class="modal__label"> 
+               Caption
+              <input 
+                id="card-caption__input" 
+                type="text" 
+                class="modal__input" 
+                placeholder="Type your caption"/>
+            </label> 
+
+            <button type="submit" class="modal__save-btn">Save</button>
+          </form>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
