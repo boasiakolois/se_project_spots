@@ -16,12 +16,49 @@
 <body>
     
     <div class="page">
-        <header class="header"> </header>
+        <header class="header"> 
+            <img src="./images/Logo.svg" alt="Spots Logo" class="header__logo">
+        </header>
 
         <main class="content">
-            <section class="profile"> </section>
+            <section class="profile"> 
+                <img 
+                src="./images/avatar.jpg" 
+                alt="Profile avatar" 
+                class="profile__avatar">
 
-            <section class="cards"> </section>
+                <div class="profile__column">
+
+                    <h3 class="profile__name">Bessie Coleman</h3>
+                    <p class="profile__description">Civil Aviator</p>
+                    <button class="profile__edit-btn"> 
+                        <img 
+                        src="./images/pencil.svg" 
+                        alt="Pencil icon"> 
+                        Edit Profile
+                    </button>
+                </div>
+                    <button class="profile__add-btn">
+                        <img 
+                        src="./images/plus.svg" 
+                        alt="Plus icon">
+                        New Post
+                    </button>
+            </section>
+
+            <section class="cards"> 
+                <ul class="cards__list">
+                    <li class="card">
+                        <img class="card__image" src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="Card 1">
+                        <div class="card__content"></div>
+                        <h2 class="card__title">
+                        </h2>
+                        <button type="button" class="card__like-btn">
+                            <img src="./images/like.png" alt="Like icon" class="card__like-icon">
+                        </button>
+                    </li>
+                </ul>
+            </section>
         </main>
 
         <footer class="footer"> </footer>
